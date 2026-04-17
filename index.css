@@ -1,0 +1,216 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+ font-weight: 600;
+ font-family: sans-serif;
+ 
+}
+h3{
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
+.header {
+    background-color: #333;
+    
+    padding: 0;
+    text-align: center;
+     color:#DFFF00;
+     font-size: 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 14px 60px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.block{
+     margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.right_side img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border-radius: 50%;
+}
+.right_side h2{
+   
+    text-align: center;
+}
+section {
+
+    margin: 10%;
+    background-color: transparent;
+    border-radius: 5px;
+    align-items:center;
+    
+}
+section h2 {
+    align-content: center;
+    
+    font-weight: 600;
+    color: #fff;
+}
+section p {
+    align-content: center;
+     color: #fff;
+     
+}
+.p ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+.p h2 {
+     color: #fff;
+    text-align: center;
+    
+
+}
+.p p{
+     color: #fff;;
+    text-align: center;
+     
+
+}
+
+.p li {
+    background-color: transparent;
+    margin: 40px 30%;
+     color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+#projects h2 {
+     color: #fff;
+    text-align: center;
+    margin: 0x;
+
+    
+}
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0 20% 0 35%;
+    
+}
+#projects li {
+    background-color: transparent;
+    margin: 0;
+     color: #fff;
+    border-radius: 5px;
+    max-width: fit-content;
+
+    
+}
+#skills li {
+    background-color: transparent;
+    margin: 40px 30%;
+    
+    padding: 10px;
+    border-radius: 5px;
+}
+#contact p {
+     color: #fff;
+    text-align: center;
+     
+}
+#contact p a {
+      color: #fff;
+    text-decoration: none;
+}
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#contact input, textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+}
+#contact button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#contact button:hover {
+    background-color: #555;
+}
+#contact p {
+    color: #fff;
+    text-align: center;
+    
+}
+#contact button {
+  background-color: #DFFF00;
+  color: #000;
+}
+
+#skills ul {
+    
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#skills li {
+   margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid #DFFF00;
+}
+#skills li:hover {
+  background-color: #DFFF00;
+  color: #000;
+  transition: 0.3s;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
